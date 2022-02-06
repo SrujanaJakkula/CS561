@@ -17,7 +17,7 @@ paths:
       summary: "Authenticate user and return token"
       consumes:
         - application/json
-      description: ""
+      description: "To authenticate the user and get a token after authentication"
       operationId: "loginUser"
       produces:
       - "application/json"
@@ -40,7 +40,7 @@ paths:
       tags:
       - "user"
       summary: "Returns current temperature"
-      description: ""
+      description: "Get the current weather"
       operationId: "getWeather"
       produces:
       - "application/json"
@@ -116,7 +116,7 @@ paths:
       tags:
       - "user"
       summary: "Return a greeting"
-      description: ""
+      description: "Display a greeting"
       operationId: "getGreeting"
       produces:
       - "application/json"
